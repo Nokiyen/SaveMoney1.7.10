@@ -3,7 +3,6 @@ package noki.savemoney.item;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.MathHelper;
 import noki.savemoney.block.BlockSavings;
 
 
@@ -38,11 +37,11 @@ public class ItemBlockSavings extends ItemBlock {
 		
 	}
 	
-	@Override
+/*	@Override
 	public int getMetadata(int metadata) {
 		
 		return MathHelper.clamp_int(metadata, 0, 2);
 		
-	}
+	}*/
 	
 }

@@ -131,11 +131,11 @@ public class SaveMoneyData {
 	public static void registerRecipes() {
 		
 		// register recipes.
-		GameRegistry.addRecipe(new ItemStack(blockSavingsBank, 1, 0),
+		GameRegistry.addRecipe(BlockSavings.getSavingsStack(0, 0),
 				"   ", "xxx", "xyx", 'x', Items.brick, 'y', Items.iron_ingot);
-		GameRegistry.addRecipe(new ItemStack(blockSavingsBank, 1, 4),
+		GameRegistry.addRecipe(BlockSavings.getSavingsStack(1, 0),
 				"   ", "xxx", "xyx", 'x', Items.brick, 'y', Items.gold_ingot);
-		GameRegistry.addRecipe(new ItemStack(blockSavingsBank, 1, 8),
+		GameRegistry.addRecipe(BlockSavings.getSavingsStack(2, 0),
 				"   ", "xxx", "xyx", 'x', Items.brick, 'y', Items.diamond);
 		GameRegistry.addRecipe(new ItemStack(blockSafe, 1, 0),
 				"xyx", "y y", "xyx", 'x', Blocks.obsidian, 'y', Items.iron_ingot);
